@@ -9,16 +9,13 @@ function pancakeRecipe (par1, par2, par3) {
 
 };
 
-const title = "Clatite";
-const portions = 3;
-const ingredients = ["eggs", " milk", " flour", " sugar"];
+const food = pancakeRecipe("Clatite", 3, ["eggs", " milk", " flour", " sugar"]);
 
-const recipe = pancakeRecipe (title, portions, ingredients);
 
 // pentru raspunsul in forma de obiect:
-console.log(recipe);
+console.log(food);
 
 ///// pentru o instructiune pentru fiecare:
-console.log("My favourite recipe is: " + recipe.title);
-console.log("Number of portions: " + recipe.portions);
-console.log("Ingredients you need: " + recipe.ingredients);
+console.log("My favourite recipe is: " + food.title);
+console.log("Number of portions: " + food.portions);
+console.log("Ingredients you need: " + food.ingredients);
